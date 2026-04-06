@@ -79,3 +79,4 @@ mock.onPost("/company-profile").reply((config) => {
   const updatedData = JSON.parse(config.data);
   return [201, { success: true, data: updatedData }];
 });
+
